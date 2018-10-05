@@ -1,0 +1,35 @@
+[Mon Oct 01 17:20:15.626441 2018] [ssl:warn] [pid 5436:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:20:15.732447 2018] [ssl:warn] [pid 5436:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:20:15.835453 2018] [mpm_winnt:notice] [pid 5436:tid 260] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Mon Oct 01 17:20:15.835453 2018] [mpm_winnt:notice] [pid 5436:tid 260] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Mon Oct 01 17:20:15.835453 2018] [core:notice] [pid 5436:tid 260] AH00094: Command line: 'd:\\blog\\apache\\bin\\httpd.exe -d D:/Blog/apache'
+[Mon Oct 01 17:20:15.837453 2018] [mpm_winnt:notice] [pid 5436:tid 260] AH00418: Parent: Created child process 1884
+[Mon Oct 01 17:20:16.234476 2018] [ssl:warn] [pid 1884:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:20:16.291479 2018] [ssl:warn] [pid 1884:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:20:16.317481 2018] [mpm_winnt:notice] [pid 1884:tid 272] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 01 17:50:39.515762 2018] [ssl:warn] [pid 2948:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:50:39.561764 2018] [core:warn] [pid 2948:tid 260] AH00098: pid file D:/Blog/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 01 17:50:39.562764 2018] [ssl:warn] [pid 2948:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:50:39.584766 2018] [mpm_winnt:notice] [pid 2948:tid 260] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Mon Oct 01 17:50:39.584766 2018] [mpm_winnt:notice] [pid 2948:tid 260] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Mon Oct 01 17:50:39.584766 2018] [core:notice] [pid 2948:tid 260] AH00094: Command line: 'd:\\blog\\apache\\bin\\httpd.exe -d D:/Blog/apache'
+[Mon Oct 01 17:50:39.585766 2018] [mpm_winnt:notice] [pid 2948:tid 260] AH00418: Parent: Created child process 2568
+[Mon Oct 01 17:50:39.974788 2018] [ssl:warn] [pid 2568:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:50:40.055792 2018] [ssl:warn] [pid 2568:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 01 17:50:40.133797 2018] [mpm_winnt:notice] [pid 2568:tid 272] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 01 18:48:27.282086 2018] [php7:error] [pid 2568:tid 1572] [client ::1:51049] script 'D:/Blog/htdocs/action_page.php' not found or unable to stat, referer: http://localhost/first/
+[Mon Oct 01 18:56:46.703652 2018] [php7:error] [pid 2568:tid 1620] [client ::1:51099] script 'D:/Blog/htdocs/action_page.php' not found or unable to stat, referer: http://localhost/first/
+[Mon Oct 01 18:57:01.217482 2018] [php7:error] [pid 2568:tid 1572] [client ::1:51101] script 'D:/Blog/htdocs/action_page.php' not found or unable to stat, referer: http://localhost/first/
+[Tue Oct 02 20:19:02.695576 2018] [php7:error] [pid 2568:tid 1572] [client ::1:60900] script 'D:/Blog/htdocs/action_page.php' not found or unable to stat, referer: http://localhost/first/RegisterController/form/
+[Fri Oct 05 14:55:02.239989 2018] [ssl:warn] [pid 4636:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 05 14:55:02.363996 2018] [core:warn] [pid 4636:tid 260] AH00098: pid file D:/Blog/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 05 14:55:02.369996 2018] [ssl:warn] [pid 4636:tid 260] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 05 14:55:03.182043 2018] [mpm_winnt:notice] [pid 4636:tid 260] AH00455: Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10 configured -- resuming normal operations
+[Fri Oct 05 14:55:03.182043 2018] [mpm_winnt:notice] [pid 4636:tid 260] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:10:17
+[Fri Oct 05 14:55:03.182043 2018] [core:notice] [pid 4636:tid 260] AH00094: Command line: 'd:\\blog\\apache\\bin\\httpd.exe -d D:/Blog/apache'
+[Fri Oct 05 14:55:03.185043 2018] [mpm_winnt:notice] [pid 4636:tid 260] AH00418: Parent: Created child process 4668
+[Fri Oct 05 14:55:03.530063 2018] [ssl:warn] [pid 4668:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 05 14:55:03.568065 2018] [ssl:warn] [pid 4668:tid 272] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 05 14:55:03.610067 2018] [mpm_winnt:notice] [pid 4668:tid 272] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 05 15:53:53.984993 2018] [php7:error] [pid 4668:tid 1564] [client ::1:49620] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in D:\\Blog\\htdocs\\first\\application\\views\\login.php on line 25, referer: http://localhost/first/RegisterController/checkLogin
+[Fri Oct 05 17:09:51.851688 2018] [php7:error] [pid 4668:tid 1568] [client ::1:50144] PHP Fatal error:  Cannot redeclare RegisterController::list() in D:\\Blog\\htdocs\\first\\application\\controllers\\RegisterController.php on line 134, referer: http://localhost/first/RegisterController/profile
